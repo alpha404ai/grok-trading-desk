@@ -1,0 +1,4 @@
+time,market,side,entry,stop,target,exit,R,why
+2026-10-21 09:14,gold,long,4112,4084,4176,4176,2.3,breakout + 2.4x volume with 4h trend
+2026-10-21 13:40,oil,short,61.80,62.35,60.70,62.35,-1.0,volume faded after entry
+2026-10-22 10:02,bitcoin,long,108200,107300,110100,108200,0.0,stopped at break-even after +1R
