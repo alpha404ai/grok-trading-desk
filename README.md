@@ -81,7 +81,7 @@ Example rows in [`trades/example.csv`](trades/example.csv) are made up to show t
 
 ## More from this account
 
-- [grok-market-analyst](https://github.com/apha404ai/grok-market-analyst): Grok scores market claims and grades itself
-- [grok-one-shot](https://github.com/apha404ai/grok-one-shot): get a task done in one pass
+- [grok-market-analyst](https://github.com/alpha404ai/grok-market-analyst): Grok scores market claims and grades itself
+- [grok-one-shot](https://github.com/alpha404ai/grok-one-shot): get a task done in one pass
 
 MIT License
