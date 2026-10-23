@@ -1,14 +1,14 @@
 # grok-trading-desk
 
-An autonomous Grok Bot trading desk that runs on paper. One prompt, 9 blocks. Every block is there because something broke without it.
+An autonomous Grok Bot trading desk that runs 24/7. One prompt, 9 blocks. Every block is there because something broke without it.
 
 ![grok-trading-desk preview](assets/preview.jpg)
 
 ## What it does
 
-DESK watches bitcoin, gold and oil every minute. It trades only when volume shows up, only with the 4h trend, and sizes every position at 0.5% risk. If the day hits -2%, it closes everything and goes to sleep. Every trade gets logged with a reason. Every Sunday it finds its weakest rule, switches it off on paper and reruns the week to see if the desk does better without it.
+DESK watches bitcoin, gold and oil every minute. It trades only when volume shows up, only with the 4h trend, and sizes every position at 0.5% risk. If the day hits -2%, it closes everything and goes to sleep. Every trade gets logged with a reason. Every Sunday it finds its weakest rule, switches it off for a week and checks if the desk does better without it.
 
-Nobody approves the trades. That is the whole idea, and it is also why the desk stays on paper until you decide otherwise.
+Nobody approves the trades. That is the whole idea.
 
 ## Quick start
 
@@ -25,7 +25,7 @@ Nobody approves the trades. That is the whole idea, and it is also why the desk 
 | `{{20:00}}` | weekly review time, Sunday | 20:00 |
 
 3. Paste it into Grok Bot as a new bot.
-4. Let it run on a paper account for at least 50 trades before you change a single rule.
+4. Let it run for at least 50 trades before you change a single rule.
 
 ## How it runs
 
@@ -44,7 +44,7 @@ flowchart LR
 
 | Block | Rule | Why it exists |
 |---|---|---|
-| `role` | Paper-trade 24/7, follow the blocks or stop | no improvising |
+| `role` | Trade 24/7, follow the blocks or stop | no improvising |
 | `scan` | Act only on 2x the 20-bar volume | quiet hours produced most of the losses |
 | `entry` | Only with the 4h trend, stop under the last swing, 2R+ | counter-trend wins were small, losses were big |
 | `size` | 0.5% risk, max 3 open, same direction counts once | one oversized trade erased a week |
@@ -75,9 +75,9 @@ Example rows in [`trades/example.csv`](trades/example.csv) are made up to show t
 
 ## Safety
 
-- Paper first. This repo does not place real orders by itself, and nothing here is financial advice.
+- Nothing here is financial advice. You run it, you own the result.
 - If you ever connect an exchange, use a key with trading only. Never withdrawal rights.
-- Track your own paper results before you trust any number, including ours.
+- Track your own results before you trust any number, including ours.
 
 ## More from this account
 

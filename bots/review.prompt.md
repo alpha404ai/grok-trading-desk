@@ -16,7 +16,7 @@ For each rule: number of trades, win rate, average R, worst R.
 The rule with the lowest average R is the suspect.
 </grade>
 <test>
-Rerun the week on paper with the suspect rule switched off.
+Run the next week with the suspect rule switched off.
 Better average R and no bigger drawdown: keep it off.
 Worse: switch it back on and write why.
 </test>
